@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43767D2C2C2AFF7500A9E4E6 /* XCGLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 43767D2B2C2AFF7500A9E4E6 /* XCGLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43767D2D2C2AFF7500A9E4E6 /* XCGLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 43767D2B2C2AFF7500A9E4E6 /* XCGLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43767D2E2C2AFF7500A9E4E6 /* XCGLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 43767D2B2C2AFF7500A9E4E6 /* XCGLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43767D2F2C2AFF7500A9E4E6 /* XCGLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 43767D2B2C2AFF7500A9E4E6 /* XCGLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5501A3841D761F9A00CB8ABE /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A3831D761F9A00CB8ABE /* BaseDestination.swift */; };
 		5501A3851D761F9A00CB8ABE /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A3831D761F9A00CB8ABE /* BaseDestination.swift */; };
 		5501A3861D761F9A00CB8ABE /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A3831D761F9A00CB8ABE /* BaseDestination.swift */; };
@@ -57,10 +61,6 @@
 		5501A3F31D77506F00CB8ABE /* XcodeColorsLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A3E71D77506F00CB8ABE /* XcodeColorsLogFormatter.swift */; };
 		554DF41019D76FA9005708BE /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DF40F19D76FA9005708BE /* XCGLogger.swift */; };
 		554DF43319D77155005708BE /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DF40F19D76FA9005708BE /* XCGLogger.swift */; };
-		5556B9952BD6057300E16AAE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5556B9942BD6057300E16AAE /* PrivacyInfo.xcprivacy */; };
-		5556B9962BD6057300E16AAE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5556B9942BD6057300E16AAE /* PrivacyInfo.xcprivacy */; };
-		5556B9972BD6057300E16AAE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5556B9942BD6057300E16AAE /* PrivacyInfo.xcprivacy */; };
-		5556B9982BD6057300E16AAE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5556B9942BD6057300E16AAE /* PrivacyInfo.xcprivacy */; };
 		556DA17F1D78B41600C7E546 /* FileNameFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556DA17D1D78B41600C7E546 /* FileNameFilter.swift */; };
 		556DA1801D78B41600C7E546 /* FileNameFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556DA17D1D78B41600C7E546 /* FileNameFilter.swift */; };
 		556DA1811D78B41600C7E546 /* FileNameFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556DA17D1D78B41600C7E546 /* FileNameFilter.swift */; };
@@ -115,18 +115,6 @@
 		55E3EE5119D76F280068C3A7 /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E3EE4519D76F280068C3A7 /* XCGLogger.framework */; };
 		55E3EE5819D76F280068C3A7 /* XCGLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E3EE5719D76F280068C3A7 /* XCGLoggerTests.swift */; };
 		70CB94181B99E728007802FF /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DF40F19D76FA9005708BE /* XCGLogger.swift */; };
-		7573B4CD1DE4173E00726CE1 /* ObjcExceptionBridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 7573B4C01DE4146300726CE1 /* ObjcExceptionBridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7573B4D01DE4182B00726CE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7573B4CF1DE4182B00726CE1 /* Foundation.framework */; };
-		7573B4DA1DE41AC200726CE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7573B4CF1DE4182B00726CE1 /* Foundation.framework */; };
-		7573B4DC1DE41AC200726CE1 /* ObjcExceptionBridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 7573B4C01DE4146300726CE1 /* ObjcExceptionBridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7573B4E91DE41B1800726CE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7573B4CF1DE4182B00726CE1 /* Foundation.framework */; };
-		7573B4EB1DE41B1800726CE1 /* ObjcExceptionBridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 7573B4C01DE4146300726CE1 /* ObjcExceptionBridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7573B4F41DE41B3B00726CE1 /* ObjcExceptionBridging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7573B4F01DE41B1800726CE1 /* ObjcExceptionBridging.framework */; };
-		7573B4F51DE41B4500726CE1 /* ObjcExceptionBridging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7573B4E11DE41AC200726CE1 /* ObjcExceptionBridging.framework */; };
-		7573B4F61DE41B4C00726CE1 /* ObjcExceptionBridging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7573B4BE1DE4146300726CE1 /* ObjcExceptionBridging.framework */; };
-		7573B4FA1DE41B5000726CE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7573B4CF1DE4182B00726CE1 /* Foundation.framework */; };
-		7573B4FC1DE41B5000726CE1 /* ObjcExceptionBridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 7573B4C01DE4146300726CE1 /* ObjcExceptionBridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7573B5051DE41B7000726CE1 /* ObjcExceptionBridging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7573B5011DE41B5000726CE1 /* ObjcExceptionBridging.framework */; };
 		BA5ACC1F2BD051F800108C5E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = BA5ACC1E2BD051F800108C5E /* PrivacyInfo.xcprivacy */; };
 		BA5ACC202BD051F800108C5E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = BA5ACC1E2BD051F800108C5E /* PrivacyInfo.xcprivacy */; };
 		BA5ACC212BD051F800108C5E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = BA5ACC1E2BD051F800108C5E /* PrivacyInfo.xcprivacy */; };
@@ -162,37 +150,10 @@
 			remoteGlobalIDString = 55E3EE4419D76F280068C3A7;
 			remoteInfo = XCGLogger;
 		};
-		7573B4C81DE414CD00726CE1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55E3EE3C19D76F280068C3A7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7573B4BD1DE4146300726CE1;
-			remoteInfo = ObjcExceptionBridging;
-		};
-		7573B4E31DE41AF500726CE1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55E3EE3C19D76F280068C3A7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7573B4D71DE41AC200726CE1;
-			remoteInfo = "ObjcExceptionBridging (macOS)";
-		};
-		7573B4F21DE41B3100726CE1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55E3EE3C19D76F280068C3A7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7573B4E61DE41B1800726CE1;
-			remoteInfo = "ObjcExceptionBridging (watchOS)";
-		};
-		7573B5031DE41B6A00726CE1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55E3EE3C19D76F280068C3A7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7573B4F71DE41B5000726CE1;
-			remoteInfo = "ObjcExceptionBridging (tvOS)";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43767D2B2C2AFF7500A9E4E6 /* XCGLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCGLogger.h; sourceTree = "<group>"; };
 		5501A3831D761F9A00CB8ABE /* BaseDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDestination.swift; sourceTree = "<group>"; };
 		5501A3881D7624B900CB8ABE /* DestinationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationProtocol.swift; sourceTree = "<group>"; };
 		5501A38D1D76250600CB8ABE /* ConsoleDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleDestination.swift; sourceTree = "<group>"; };
@@ -208,7 +169,6 @@
 		5515A3DF1BA119FA0047BA31 /* XCGLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCGLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		554DF40F19D76FA9005708BE /* XCGLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCGLogger.swift; sourceTree = "<group>"; };
 		554DF41719D76FE7005708BE /* XCGLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCGLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5556B9942BD6057300E16AAE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		556DA17D1D78B41600C7E546 /* FileNameFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileNameFilter.swift; sourceTree = "<group>"; };
 		556DA17E1D78B41600C7E546 /* FilterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterProtocol.swift; sourceTree = "<group>"; };
 		558A04521E95A6A200D975BD /* AutoRotatingFileDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoRotatingFileDestination.swift; sourceTree = "<group>"; };
@@ -231,13 +191,7 @@
 		55E3EE5619D76F280068C3A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55E3EE5719D76F280068C3A7 /* XCGLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCGLoggerTests.swift; sourceTree = "<group>"; };
 		70CB94201B99E728007802FF /* XCGLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCGLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7573B4BE1DE4146300726CE1 /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcExceptionBridging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7573B4C01DE4146300726CE1 /* ObjcExceptionBridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ObjcExceptionBridging.h; path = include/ObjcExceptionBridging.h; sourceTree = "<group>"; };
-		7573B4C11DE4146300726CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7573B4CF1DE4182B00726CE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7573B4E11DE41AC200726CE1 /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcExceptionBridging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7573B4F01DE41B1800726CE1 /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcExceptionBridging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7573B5011DE41B5000726CE1 /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcExceptionBridging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5ACC1E2BD051F800108C5E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -246,7 +200,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7573B5051DE41B7000726CE1 /* ObjcExceptionBridging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +207,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7573B4F51DE41B4500726CE1 /* ObjcExceptionBridging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +238,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7573B4F61DE41B4C00726CE1 /* ObjcExceptionBridging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,39 +253,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7573B4F41DE41B3B00726CE1 /* ObjcExceptionBridging.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7573B4BA1DE4146300726CE1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7573B4D01DE4182B00726CE1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7573B4D91DE41AC200726CE1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7573B4DA1DE41AC200726CE1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7573B4E81DE41B1800726CE1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7573B4E91DE41B1800726CE1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7573B4F91DE41B5000726CE1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7573B4FA1DE41B5000726CE1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +369,6 @@
 			children = (
 				55E3EE4719D76F280068C3A7 /* XCGLogger */,
 				55E3EE5419D76F280068C3A7 /* XCGLoggerTests */,
-				7573B4BF1DE4146300726CE1 /* ObjcExceptionBridging */,
 				55E3EE4619D76F280068C3A7 /* Products */,
 				7573B4CE1DE4182B00726CE1 /* Frameworks */,
 			);
@@ -468,10 +385,6 @@
 				558EEB851D6BAC61006A9C7A /* XCGLoggerTests (watchOS).xctest */,
 				5515A3DF1BA119FA0047BA31 /* XCGLogger.framework */,
 				558EEB921D6BAC66006A9C7A /* XCGLoggerTests (tvOS).xctest */,
-				7573B4BE1DE4146300726CE1 /* ObjcExceptionBridging.framework */,
-				7573B4E11DE41AC200726CE1 /* ObjcExceptionBridging.framework */,
-				7573B4F01DE41B1800726CE1 /* ObjcExceptionBridging.framework */,
-				7573B5011DE41B5000726CE1 /* ObjcExceptionBridging.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -488,6 +401,7 @@
 				5501A3C41D76640F00CB8ABE /* ObjectiveC */,
 				55E3EE4819D76F280068C3A7 /* Supporting Files */,
 				BA5ACC1E2BD051F800108C5E /* PrivacyInfo.xcprivacy */,
+				43767D2B2C2AFF7500A9E4E6 /* XCGLogger.h */,
 			);
 			name = XCGLogger;
 			path = Sources/XCGLogger;
@@ -521,17 +435,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7573B4BF1DE4146300726CE1 /* ObjcExceptionBridging */ = {
-			isa = PBXGroup;
-			children = (
-				7573B4C01DE4146300726CE1 /* ObjcExceptionBridging.h */,
-				7573B4C11DE4146300726CE1 /* Info.plist */,
-				5556B9942BD6057300E16AAE /* PrivacyInfo.xcprivacy */,
-			);
-			name = ObjcExceptionBridging;
-			path = Sources/ObjcExceptionBridging;
-			sourceTree = "<group>";
-		};
 		7573B4CE1DE4182B00726CE1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -547,6 +450,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43767D2F2C2AFF7500A9E4E6 /* XCGLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +458,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43767D2D2C2AFF7500A9E4E6 /* XCGLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,6 +466,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43767D2C2C2AFF7500A9E4E6 /* XCGLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,38 +474,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7573B4BB1DE4146300726CE1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7573B4CD1DE4173E00726CE1 /* ObjcExceptionBridging.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7573B4DB1DE41AC200726CE1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7573B4DC1DE41AC200726CE1 /* ObjcExceptionBridging.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7573B4EA1DE41B1800726CE1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7573B4EB1DE41B1800726CE1 /* ObjcExceptionBridging.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7573B4FB1DE41B5000726CE1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7573B4FC1DE41B5000726CE1 /* ObjcExceptionBridging.h in Headers */,
+				43767D2E2C2AFF7500A9E4E6 /* XCGLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,7 +493,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7573B5041DE41B6A00726CE1 /* PBXTargetDependency */,
 			);
 			name = "XCGLogger (tvOS)";
 			productName = "XCGLogger (tvOS)";
@@ -637,7 +511,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7573B4E41DE41AF500726CE1 /* PBXTargetDependency */,
 			);
 			name = "XCGLogger (macOS)";
 			productName = "XCGLogger (OS X)";
@@ -710,7 +583,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7573B4C91DE414CD00726CE1 /* PBXTargetDependency */,
 			);
 			name = "XCGLogger (iOS)";
 			productName = XCGLogger;
@@ -747,83 +619,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				7573B4F31DE41B3100726CE1 /* PBXTargetDependency */,
 			);
 			name = "XCGLogger (watchOS)";
 			productName = XCGLogger;
 			productReference = 70CB94201B99E728007802FF /* XCGLogger.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7573B4BD1DE4146300726CE1 /* ObjcExceptionBridging (iOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7573B4C31DE4146300726CE1 /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging (iOS)" */;
-			buildPhases = (
-				7573B4B91DE4146300726CE1 /* Sources */,
-				7573B4BA1DE4146300726CE1 /* Frameworks */,
-				7573B4BB1DE4146300726CE1 /* Headers */,
-				7573B4BC1DE4146300726CE1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ObjcExceptionBridging (iOS)";
-			productName = ObjcExceptionBridging;
-			productReference = 7573B4BE1DE4146300726CE1 /* ObjcExceptionBridging.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7573B4D71DE41AC200726CE1 /* ObjcExceptionBridging (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7573B4DE1DE41AC200726CE1 /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging (macOS)" */;
-			buildPhases = (
-				7573B4D81DE41AC200726CE1 /* Sources */,
-				7573B4D91DE41AC200726CE1 /* Frameworks */,
-				7573B4DB1DE41AC200726CE1 /* Headers */,
-				7573B4DD1DE41AC200726CE1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ObjcExceptionBridging (macOS)";
-			productName = ObjcExceptionBridging;
-			productReference = 7573B4E11DE41AC200726CE1 /* ObjcExceptionBridging.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7573B4E61DE41B1800726CE1 /* ObjcExceptionBridging (watchOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7573B4ED1DE41B1800726CE1 /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging (watchOS)" */;
-			buildPhases = (
-				7573B4E71DE41B1800726CE1 /* Sources */,
-				7573B4E81DE41B1800726CE1 /* Frameworks */,
-				7573B4EA1DE41B1800726CE1 /* Headers */,
-				7573B4EC1DE41B1800726CE1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ObjcExceptionBridging (watchOS)";
-			productName = ObjcExceptionBridging;
-			productReference = 7573B4F01DE41B1800726CE1 /* ObjcExceptionBridging.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7573B4F71DE41B5000726CE1 /* ObjcExceptionBridging (tvOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7573B4FE1DE41B5000726CE1 /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging (tvOS)" */;
-			buildPhases = (
-				7573B4F81DE41B5000726CE1 /* Sources */,
-				7573B4F91DE41B5000726CE1 /* Frameworks */,
-				7573B4FB1DE41B5000726CE1 /* Headers */,
-				7573B4FD1DE41B5000726CE1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ObjcExceptionBridging (tvOS)";
-			productName = ObjcExceptionBridging;
-			productReference = 7573B5011DE41B5000726CE1 /* ObjcExceptionBridging.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -839,44 +638,34 @@
 				TargetAttributes = {
 					5515A3DE1BA119FA0047BA31 = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 1020;
+						LastSwiftMigration = 1540;
 						ProvisioningStyle = Automatic;
 					};
 					554DF41619D76FE7005708BE = {
 						CreatedOnToolsVersion = 6.1;
-						LastSwiftMigration = 1020;
+						LastSwiftMigration = 1540;
 						ProvisioningStyle = Automatic;
 					};
+					558EEB7A1D6BAC61006A9C7A = {
+						LastSwiftMigration = 1540;
+					};
 					558EEB871D6BAC66006A9C7A = {
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1540;
 					};
 					55BB1EF51B79DC7500709779 = {
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1540;
 					};
 					55E3EE4419D76F280068C3A7 = {
 						CreatedOnToolsVersion = 6.1;
-						LastSwiftMigration = 1020;
+						LastSwiftMigration = 1540;
 						ProvisioningStyle = Automatic;
 					};
 					55E3EE4F19D76F280068C3A7 = {
 						CreatedOnToolsVersion = 6.1;
-						LastSwiftMigration = 1020;
+						LastSwiftMigration = 1540;
 					};
 					70CB94161B99E728007802FF = {
-						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
-					};
-					7573B4BD1DE4146300726CE1 = {
-						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
-					};
-					7573B4D71DE41AC200726CE1 = {
-						ProvisioningStyle = Automatic;
-					};
-					7573B4E61DE41B1800726CE1 = {
-						ProvisioningStyle = Automatic;
-					};
-					7573B4F71DE41B5000726CE1 = {
+						LastSwiftMigration = 1540;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -902,10 +691,6 @@
 				55BB1EF51B79DC7500709779 /* XCGLoggerTests (macOS) */,
 				558EEB7A1D6BAC61006A9C7A /* XCGLoggerTests (watchOS) */,
 				558EEB871D6BAC66006A9C7A /* XCGLoggerTests (tvOS) */,
-				7573B4BD1DE4146300726CE1 /* ObjcExceptionBridging (iOS) */,
-				7573B4D71DE41AC200726CE1 /* ObjcExceptionBridging (macOS) */,
-				7573B4E61DE41B1800726CE1 /* ObjcExceptionBridging (watchOS) */,
-				7573B4F71DE41B5000726CE1 /* ObjcExceptionBridging (tvOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -968,38 +753,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA5ACC212BD051F800108C5E /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7573B4BC1DE4146300726CE1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5556B9952BD6057300E16AAE /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7573B4DD1DE41AC200726CE1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5556B9962BD6057300E16AAE /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7573B4EC1DE41B1800726CE1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5556B9972BD6057300E16AAE /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7573B4FD1DE41B5000726CE1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5556B9982BD6057300E16AAE /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1162,34 +915,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7573B4B91DE4146300726CE1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7573B4D81DE41AC200726CE1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7573B4E71DE41B1800726CE1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7573B4F81DE41B5000726CE1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1212,26 +937,6 @@
 			isa = PBXTargetDependency;
 			target = 55E3EE4419D76F280068C3A7 /* XCGLogger (iOS) */;
 			targetProxy = 55E3EE5219D76F280068C3A7 /* PBXContainerItemProxy */;
-		};
-		7573B4C91DE414CD00726CE1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7573B4BD1DE4146300726CE1 /* ObjcExceptionBridging (iOS) */;
-			targetProxy = 7573B4C81DE414CD00726CE1 /* PBXContainerItemProxy */;
-		};
-		7573B4E41DE41AF500726CE1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7573B4D71DE41AC200726CE1 /* ObjcExceptionBridging (macOS) */;
-			targetProxy = 7573B4E31DE41AF500726CE1 /* PBXContainerItemProxy */;
-		};
-		7573B4F31DE41B3100726CE1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7573B4E61DE41B1800726CE1 /* ObjcExceptionBridging (watchOS) */;
-			targetProxy = 7573B4F21DE41B3100726CE1 /* PBXContainerItemProxy */;
-		};
-		7573B5041DE41B6A00726CE1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7573B4F71DE41B5000726CE1 /* ObjcExceptionBridging (tvOS) */;
-			targetProxy = 7573B5031DE41B6A00726CE1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1343,6 +1048,7 @@
 		558EEB831D6BAC61006A9C7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1352,6 +1058,9 @@
 				PRODUCT_MODULE_NAME = XCGLoggerTests_iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/XCGLogger/XCGLoggerTests (watchOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Debug;
@@ -1359,11 +1068,14 @@
 		558EEB841D6BAC61006A9C7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Tests/XCGLoggerTests/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralgardens.xcglogger.tests;
 				PRODUCT_MODULE_NAME = XCGLoggerTests_iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/XCGLogger/XCGLoggerTests (watchOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Release;
@@ -1371,6 +1083,7 @@
 		558EEB901D6BAC66006A9C7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1380,6 +1093,9 @@
 				PRODUCT_MODULE_NAME = XCGLoggerTests_iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/XCGLogger/XCGLoggerTests (tvOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
@@ -1387,11 +1103,14 @@
 		558EEB911D6BAC66006A9C7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Tests/XCGLoggerTests/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralgardens.xcglogger.tests;
 				PRODUCT_MODULE_NAME = XCGLoggerTests_iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/XCGLogger/XCGLoggerTests (tvOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
@@ -1399,6 +1118,7 @@
 		55BB1EFF1B79DC7500709779 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1410,12 +1130,16 @@
 				PRODUCT_MODULE_NAME = XCGLoggerTests_macOS;
 				PRODUCT_NAME = "XCGLoggerTests (macOS)";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/XCGLogger/XCGLoggerTests (macOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		55BB1F001B79DC7500709779 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				INFOPLIST_FILE = "$(SRCROOT)/Tests/XCGLoggerTests/Info.plist";
@@ -1424,6 +1148,8 @@
 				PRODUCT_MODULE_NAME = XCGLoggerTests_macOS;
 				PRODUCT_NAME = "XCGLoggerTests (macOS)";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/XCGLogger/XCGLoggerTests (macOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1595,6 +1321,7 @@
 		55E3EE5F19D76F280068C3A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1604,6 +1331,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralgardens.xcglogger.tests;
 				PRODUCT_MODULE_NAME = XCGLoggerTests_iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/XCGLogger/XCGLoggerTests (iOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -1611,11 +1340,13 @@
 		55E3EE6019D76F280068C3A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Tests/XCGLoggerTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralgardens.xcglogger.tests;
 				PRODUCT_MODULE_NAME = XCGLoggerTests_iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/XCGLogger/XCGLoggerTests (iOS)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -1668,234 +1399,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Release;
-		};
-		7573B4C41DE4146300726CE1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/ObjcExceptionBridging/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralgardens.xcglogger.objcexceptionbridging;
-				PRODUCT_NAME = ObjcExceptionBridging;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7573B4C51DE4146300726CE1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/ObjcExceptionBridging/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralgardens.xcglogger.objcexceptionbridging;
-				PRODUCT_NAME = ObjcExceptionBridging;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7573B4DF1DE41AC200726CE1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/ObjcExceptionBridging/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralgardens.xcglogger.objcexceptionbridging;
-				PRODUCT_NAME = ObjcExceptionBridging;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7573B4E01DE41AC200726CE1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/ObjcExceptionBridging/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralgardens.xcglogger.objcexceptionbridging;
-				PRODUCT_NAME = ObjcExceptionBridging;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7573B4EE1DE41B1800726CE1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/ObjcExceptionBridging/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralgardens.xcglogger.objcexceptionbridging;
-				PRODUCT_NAME = ObjcExceptionBridging;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Debug;
-		};
-		7573B4EF1DE41B1800726CE1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/ObjcExceptionBridging/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralgardens.xcglogger.objcexceptionbridging;
-				PRODUCT_NAME = ObjcExceptionBridging;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Release;
-		};
-		7573B4FF1DE41B5000726CE1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/ObjcExceptionBridging/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralgardens.xcglogger.objcexceptionbridging;
-				PRODUCT_NAME = ObjcExceptionBridging;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
-			};
-			name = Debug;
-		};
-		7573B5001DE41B5000726CE1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/ObjcExceptionBridging/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralgardens.xcglogger.objcexceptionbridging;
-				PRODUCT_NAME = ObjcExceptionBridging;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -1979,42 +1482,6 @@
 			buildConfigurations = (
 				70CB941E1B99E728007802FF /* Debug */,
 				70CB941F1B99E728007802FF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7573B4C31DE4146300726CE1 /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging (iOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7573B4C41DE4146300726CE1 /* Debug */,
-				7573B4C51DE4146300726CE1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7573B4DE1DE41AC200726CE1 /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7573B4DF1DE41AC200726CE1 /* Debug */,
-				7573B4E01DE41AC200726CE1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7573B4ED1DE41B1800726CE1 /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging (watchOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7573B4EE1DE41B1800726CE1 /* Debug */,
-				7573B4EF1DE41B1800726CE1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7573B4FE1DE41B5000726CE1 /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging (tvOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7573B4FF1DE41B5000726CE1 /* Debug */,
-				7573B5001DE41B5000726CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
