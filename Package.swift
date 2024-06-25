@@ -27,7 +27,8 @@ let package = Package(
             ],
             publicHeadersPath: "Sources/XCGLogger",
             cSettings: [
-                .headerSearchPath(".")
+                .headerSearchPath("."),
+                .headerSearchPath("Sources/XCGLogger"),
             ]
         ),
     ]
