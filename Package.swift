@@ -22,7 +22,7 @@ let package = Package(
             name: "XCGLogger",
             dependencies: [],
             path: "Sources/XCGLogger",
-            publicHeadersPath: "Sources/XCGLogger"
+            publicHeadersPath: "Sources/XCGLogger",
             resources: [
                 .process("PrivacyInfo.xcprivacy")
             ]
