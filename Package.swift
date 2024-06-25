@@ -25,7 +25,10 @@ let package = Package(
             resources: [
                 .process("PrivacyInfo.xcprivacy")
             ],
-            publicHeadersPath: "Sources/XCGLogger"
+            publicHeadersPath: "Sources/XCGLogger",
+            cSettings: [
+                .headerSearchPath(".")
+            ]
         ),
     ]
 )
